@@ -1,7 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Kotlin template
-# Compiled class file
-*.class
 
 # Log file
 *.log
@@ -92,3 +90,6 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+index/
+log.txt
+output.txt

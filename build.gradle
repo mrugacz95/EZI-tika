@@ -12,8 +12,10 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     
-    // https://mvnrepository.com/artifact/org.apache.tika/tika-app
     compile group: 'org.apache.tika', name: 'tika-app', version: '1.4'
+    compile group: 'org.apache.lucene', name: 'lucene-core', version: '7.5.0'
+    compile group: 'org.apache.lucene', name: 'lucene-queryparser', version: '7.5.0'
+
 
 }
 
